@@ -1,0 +1,97 @@
+body{
+	font-size: 18px;
+	margin:0;
+	font-family: "Roboto";
+}
+
+
+
+
+header, footer{
+	background-color: #0f054b;
+	padding:20px;
+	color:#ffffff;
+	text-align: center;
+	font-size:20px;
+}
+@font-face{
+	font-family: "architect-daughter";
+	src: url(Architects_Daughter/ArchitectsDaughter-regular.ttf) format("trutype");
+}
+@font-face{
+	font-family: "Roboto";
+	src: url(Roboto/Roboto-Regular.ttf) format("truetype");
+}
+h1, header, footer{
+	font-family: "architect-daughter";
+}
+h2{
+	font-size: 50px;
+}
+h1{
+	text-transform:uppercase;
+}
+
+section{
+	width: 58%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+.gde-img{
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.icone-img{
+	width:18%;
+}
+.fond-bleu{
+	background-color: #0f054b;
+	margin:auto;
+}
+.text-blanc{
+	color:#ffffff;
+	padding-right: 40px;
+	margin-right: 20px;
+}
+.text-orange{
+	color:#ffac00;
+	margin:10px;
+	padding-top:10px;
+	text-transform: uppercase;
+}
+.text-rouge{
+	color:#ff3b3b;
+	margin:10px;
+	padding-top:10px;
+	text-transform: uppercase;
+}
+
+.text-aligned{
+	text-align: center;
+}
+
+.corps-texte{
+	text-align: left;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+.p-20{
+	padding:20px;
+}
+.div{
+	clear:right;
+	display:flex;
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
